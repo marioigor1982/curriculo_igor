@@ -102,6 +102,33 @@ body {
     font-size: 50px;
 }
 
+
+li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #f0f0f0; /* cor branco gelo */
+  display: flex;
+  align-items: center;
+}
+
+li i {
+  margin-right: 8px;
+  color: #f0f0f0; /* mesma cor dos links */
+}
+
+li a {
+  text-decoration: none;
+  color: #f0f0f0;
+  transition: color 0.3s ease;
+}
+
+li a:hover {
+  text-decoration: underline;
+  color: #ffffff; /* branco puro no hover */
+}
+
+
+
 .contact-info {
     margin-bottom: 30px;
 }
